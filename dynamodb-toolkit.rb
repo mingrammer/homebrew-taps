@@ -2,9 +2,9 @@
 class DynamodbToolkit < Formula
   desc "A command line toolkit for aws dynamodb"
   homepage "https://github.com/mingrammer/dynamodb-toolkit"
-  url "https://github.com/mingrammer/dynamodb-toolkit/releases/download/v0.0.2/dynamodb-toolkit_0.0.2_darwin_amd64.tar.gz"
-  version "0.0.2"
-  sha256 "082acd021bfe3e67ac45e781f38acbb881a40bfbbef168bb98d1f09beca7d6eb"
+  url "https://github.com/mingrammer/dynamodb-toolkit/releases/download/v0.0.3/dynamodb-toolkit_0.0.3_darwin_amd64.tar.gz"
+  version "0.0.3"
+  sha256 "75e3d7182b956ecb08c4864b5354cf81d82613500b581a82d9eae89e6484f8bb"
 
   def install
     bin.install "dynamotk"
